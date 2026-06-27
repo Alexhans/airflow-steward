@@ -106,7 +106,7 @@ disk and the bootstrap skill is in your repo.
 
 ### 2. Skill takeover
 
-Tell your agent: **"adopt apache/airflow-steward in my repo"**
+Tell your agent: **"adopt apache/magpie in my repo"**
 (or invoke `/magpie-setup` directly). The skill walks
 through the rest:
 
