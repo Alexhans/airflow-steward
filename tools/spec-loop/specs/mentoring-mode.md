@@ -120,10 +120,17 @@ uv run --project tools/skill-evals skill-eval tools/skill-evals/evals/mentoring-
 
 ## Known gaps
 
-- **`experimental` — no adopter pilot has run.** All three shipped skills
+- **The family now covers the newcomer journey end to end.**
+  `pr-management-mentor`, `good-first-issue-author`, `mentoring-welcome`
+  (first-contribution welcome / orientation), and `contributor-to-committer`
+  (readiness path tracker) all ship. The two newcomer-facing capabilities
+  this spec previously flagged as undesigned are both built; the open
+  item that remains is the backlog-curation counterpart noted above
+  (relabeling the existing backlog as good-first-issue candidates).
+- **`experimental` — no adopter pilot has run.** All four shipped skills
   (`pr-management-mentor`, `good-first-issue-author`, `mentoring-welcome`)
-  may change shape as adopter pilots and contributor-sentiment evaluations
-  land.
+  and `contributor-to-committer` may change shape as adopter pilots and
+  contributor-sentiment evaluations land.
 - **`good-first-issue-author` shipped `experimental`; no adopter pilot
   has authored a live good first issue through it yet.** The suitability
   and readiness thresholds may shift once real backlog candidates run
@@ -133,8 +140,3 @@ uv run --project tools/skill-evals skill-eval tools/skill-evals/evals/mentoring-
   The welcome tone, detecting first-timer vs. repeat contributor, and
   the content of the orientation template may shift once live threads run
   through it.
-- **One newcomer-facing capability is still unbuilt.** A
-  *contributor-to-committer path* tracker that reads the
-  nomination-evidence signals `contributor-nomination` already gathers
-  and surfaces when a contributor is approaching readiness remains a
-  candidate work item for the plan pass.
